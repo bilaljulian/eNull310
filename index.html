@@ -104,12 +104,9 @@
             <p>Explore our collection of rare and collectible items.</p>
         </div>
         <div class="item-container">
-            <img src="https://api.deepai.org/job-view-file/b94c08a3-4752-4959-9b23-bfd05c018068/outputs/output.jpg?art-image=true"
-                 alt="Ancient Coins">
-            <img src="https://api.deepai.org/job-view-file/be1b884a-a414-43a2-b9a1-b3b0dfe51f0f/outputs/output.jpg?art-image=true"
-                 alt="Vintage Electronics">
-            <img src="https://api.deepai.org/job-view-file/9178565b-51aa-40c2-a15e-196dd0da14c9/outputs/output.jpg?art-image=true"
-                 alt="Classic Cars">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmDZZMhd-3U4DgE67Yx_MR0YpujboBIBpukQ&amp;s" alt="Ancient Coins">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmDZZMhd-3U4DgE67Yx_MR0YpujboBIBpukQ&amp;s" alt="Vintage Electronics">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmDZZMhd-3U4DgE67Yx_MR0YpujboBIBpukQ&amp;s" alt="Classic Cars">
         </div>
     </div>
     <footer>
@@ -160,7 +157,7 @@
         document.getElementById('file-input').addEventListener('change', function(event) {
             const files = event.target.files;
             if (files.length > 0) {
-                alert(${files.length} file(s) selected: ${Array.from(files).map(file => file.name).join(', ')});
+                alert(`${files.length} file(s) selected: ${Array.from(files).map(file => file.name).join(', ')}`);
             }
         });
     </script>
